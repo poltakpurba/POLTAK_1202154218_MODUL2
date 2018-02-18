@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.poltak_1202154218_modul2.activity_nasigoreng">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="107dp"
+        android:layout_height="29dp"
+        android:text="Nasi Goreng A"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="250dp"
+        android:layout_height="164dp"
+        app:srcCompat="@drawable/nasigoreng1"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:text="50.000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi:"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nasi Goreng ini terbuat dari berbagai bahan seafood"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="381dp" />
+</android.support.constraint.ConstraintLayout>
